@@ -57,5 +57,12 @@ h3{
     color:#003058;
 }
 main{
-    
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#homehero{
+    height: 300px;
+    background-image:se1400\utahtech2\imidges\homehero.jpg;
+    background-size:cover;
+    background-position:center;
 }
