@@ -1,6 +1,8 @@
 body {
-    background-color: #FFFFFF; 
+    background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
+
     color: #666666;
+    
   }
 header {
     background-color: #003058;
@@ -10,6 +12,11 @@ header {
 header h1{
     line-height: 140%;
     padding: 0.5rem;
+    background-position: right;
+    padding-left: 1em;
+    background-origin: content-box;
+    margin-bottom: 0;
+    background-image: se1400\utahtech2\imidges\utahtechlogo.svg;
 }
 nav{
     font-weight: bold;
@@ -33,7 +40,11 @@ footer{
     font-style: italic;
 }
 #wrapper{
+    background-color: #FFFFFF;
     width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 0px 3px  3px rgba(66,66,66,0.3);
     margin-right:auto;
     margin-left: auto;
 }
