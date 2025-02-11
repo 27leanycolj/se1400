@@ -16,7 +16,7 @@ header h1{
     padding-left: 1em;
     background-origin: content-box;
     margin-bottom: 0;
-    background-image: imidges\utahtechlogo.svg;
+    background-image: url('imidges\utahtechlogo.svg');
 }
 nav{
     font-weight: bold;
@@ -62,7 +62,7 @@ main{
 }
 #homehero{
     height: 300px;
-    background-image:se1400\utahtech2\imidges\homehero.jpg;
+    background-image: url('imidges\homehero.jpg');
     background-size:cover;
     background-position:center;
 }
