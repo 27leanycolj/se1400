@@ -1,0 +1,10 @@
+h2 {
+	text-align: center;
+}
+.grid {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.item {
+	background-color: silver;
+}
