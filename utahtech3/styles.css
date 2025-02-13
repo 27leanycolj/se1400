@@ -20,7 +20,8 @@ header h1{
     padding-left: 1em;
     background-origin: content-box;
     margin: 0;
-    background-image: url('imidges\utahtechlogo.svg');  
+    background-image: url('imidges/utahtechlogo.svg'); 
+    background-repeat: no-repeat; 
 }
 header h1 a {
     text-decoration: none;
