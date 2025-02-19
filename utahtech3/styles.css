@@ -83,7 +83,7 @@ main img{
 }
 #homehero{
     height: 300px;
-    background-image: url('imidges\homehero.jpg');
+    background-image: url('imidges/homehero.jpg');
     background-size:cover;
     background-position:center;
     grid-column:2/-2;
@@ -91,7 +91,7 @@ main img{
 }
 #studenthero{
     height: 300px;
-    background-image: url('studenthero.jpg');
+    background-image: url('imidges/studenthero.jpg');
     background-size: cover;
     background-position: center;
     grid-column:2/-2;
@@ -99,7 +99,7 @@ main img{
 }
 #facultyhero{
     height: 300px;
-    background-image: url('facultyhero.jpg');
+    background-image: url('imidges/facultyhero.jpg');
     background-size: cover;
     background-position: center;
     grid-column:2/-2;
