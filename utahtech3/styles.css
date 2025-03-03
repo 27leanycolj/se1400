@@ -114,13 +114,14 @@ nav ul{
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
+    width: 100%;
 }
 nav ul li{
     color: #FFFFFF;
     padding: 1rem 0rem;
     display:block;
     text-align: center;
-
+    flex-grow: 1;
 }
 nav a:hover{
     background-color: #BA1C21;
