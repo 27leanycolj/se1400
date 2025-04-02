@@ -4,6 +4,7 @@ body{
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: repeat(10,200px);
     background-attachment: fixed;
+    
 }
 
 .grid-item1{
@@ -62,4 +63,5 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: darkgreen;
+    text-align: center;
 }
