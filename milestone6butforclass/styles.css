@@ -347,7 +347,7 @@ p {
     grid-column-start: 2;
     grid-column-end: -2;
     grid-row-start: 3;
-    grid-row-end: 7;
+    grid-row-end: 6;
     background-color: rgb(255, 255, 255);
     display: flex;
 }
@@ -358,14 +358,60 @@ p {
 .about-me3{
     grid-column-start: 2;
     grid-column-end: -2;
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 7;
     background-color: blueviolet;
     align-content: center;
 }
+.flex-container4{
+    grid-row-start: 7;
+    grid-row-end: 10;
+    grid-column-start: -2;
+    grid-column-end: -10;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+.flex-container5{
+    grid-row-start: 10;
+    grid-row-end: 15;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+.flex-container6{
+    grid-row-start: 15;
+    grid-row-end: -4;
+    grid-column-start: -2;
+    grid-column-end: -10;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+.flex-container7{
+    grid-row-start: -4;
+    grid-row-end: -1;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
 
-
-
+.theirdrawings{
+    align-content: center;
+    max-height: 150px;
+}
 
 
 
