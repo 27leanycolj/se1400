@@ -51,7 +51,7 @@ body {
         grid-column-start: 2;
         grid-column-end: 10;
         display: flex;
-        flex-flow: column;
+        flex-flow: row;
         background-color: rgb(7, 89, 167);
         margin: 5px;
         padding: 7px;
@@ -277,20 +277,7 @@ p {
     font-size: clamp(15px, 4vw, 90px); 
     font-family: "Comic Sans MS";
 }
-/*
-.flex-container1{
-    grid-row-start: 3;
-    grid-row-end: 7;
-    grid-column-start: 2;
-    grid-column-end: 10;
-    display: flex;
-    flex-flow: row;
-    background-color: rgb(7, 89, 167);
-    margin: 5px;
-    padding: 7px;
-    
-}
-*/
+
 .flex-container1 p{
     font-size: clamp(10px, 2vw, 25px); 
     font-family: Arial, Helvetica, sans-serif;
