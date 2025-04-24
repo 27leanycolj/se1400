@@ -621,7 +621,7 @@ p {
 .about-me2{
     flex-grow: 1;
     align-content: center;
-    font-size: clamp(10px, 2vw, 25px);
+    font-size: clamp(10px, 2vw, 25px); 
 }
 .about-me3{
     grid-column-start: 2;
