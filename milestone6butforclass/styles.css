@@ -8,7 +8,83 @@ body {
     background-color: rgb(59, 124, 155);
     margin-top: 0%;
 }
+.flex-container1{
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+    
+}
+.flex-container2{
+    grid-row-start: 7;
+    grid-row-end: 11;
+    grid-column-start: -2;
+    grid-column-end: -10;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+.flex-container4 {
+    grid-row-start: 7;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
 
+.flex-container5 {
+    grid-row-start: 10;
+    grid-row-end: 15;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+
+.flex-container6 {
+    grid-row-start: 15;
+    grid-row-end: 19; 
+    grid-column-start: 4;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
+.flex-container7{
+    grid-row-start: -4;
+    grid-row-end: -1;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(7, 89, 167);
+    margin: 5px;
+    padding: 7px;
+}
 @media (max-width: 2100px) {
     body {
         display: grid;
@@ -353,7 +429,7 @@ img {
     object-fit: contain;
     display: block;
   }
-  
+
 
 .grid-item9 {
     background-color: rgb(255, 145, 0);
@@ -476,44 +552,51 @@ p {
 .flex-text-div1{
     flex-grow: 1;
     align-content: center;
-    padding-bottom: 15px;
+    padding: 30px;
 }
 .flex-text-div2{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
 }
 .flex-text-div3{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
 }
 .flex-text-div4{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
+    font-size: clamp(10px, 2vw, 25px);
 }
 .flex-text-div5{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
+    font-size: clamp(10px, 2vw, 25px);
 }
 .flex-text-div6{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
+    font-size: clamp(10px, 2vw, 25px);
 }
 .flex-text-div7{
     flex-grow: 1;
-    padding-top: 15px;
+    padding: 30px;
     align-content: center;
+    font-size: clamp(10px, 2vw, 25px);
 }
 
 .img-item7{
     align-content: center;
+    max-width: 300px;
 }
 .img-item4{
     align-content: center;
+    align-items: center;
+    max-width: 250px;
 }
 
 /*  this is the about me page css*/
@@ -538,6 +621,7 @@ p {
 .about-me2{
     flex-grow: 1;
     align-content: center;
+    font-size: clamp(10px, 2vw, 25px);
 }
 .about-me3{
     grid-column-start: 2;
@@ -562,7 +646,7 @@ p {
 
 
 .flex-container4 img{
-    max-height: 200px;
+    max-height: 185px;
 
     display: flex;
     justify-content: flex-end;
@@ -574,7 +658,7 @@ p {
 
 }
 .flex-container5 img{
-    max-height: 450px;
+    max-height: 275px;
 
     display: flex;
     justify-content: flex-end;
@@ -586,7 +670,7 @@ p {
 
 }
 .flex-container6 img{
-    max-height: 250px;
+    max-height: 150px;
     display: flex;
     justify-content: flex-end;
     flex-flow: row;
@@ -596,24 +680,22 @@ p {
     max-width: 100%;
 }
 .flex-container7 img{
-    max-height: 250px;
+    max-height: 150px;
 
     display: flex;
     justify-content: flex-end;
     flex-flow: row;
     background-color: rgb(7, 89, 167);
-    margin: 5px;
+    margin: 15px;
     padding: 7px;
     max-width: 100%;
 }
 .about-me4 img{
-    max-height: 275px;
+    max-height: 225px;
 
     display: flex;
     flex-flow: row;
-    margin-right: 25px;
-    margin-top: 5px;
-    margin-bottom: 17px;
+    margin: 15;
     padding: 5px;
     max-width: 100%;
 }
