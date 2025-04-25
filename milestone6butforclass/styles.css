@@ -725,7 +725,7 @@ p {
     max-width: 100%;
 
 }
-.flex-container5 img{
+.flex-container5 .theirdrawings img{
     max-height: 275px;
 
     display: flex;
@@ -733,7 +733,7 @@ p {
     flex-flow: row;
     background-color: rgb(7, 89, 167);
     margin: 5px;
-    
+    padding-right:  15px;
     max-width: 100%;
 
 }
@@ -756,6 +756,9 @@ p {
     background-color: rgb(7, 89, 167);
     margin: 15px;
     max-width: 100%;
+}
+.flex-container7 .theirdrawings{
+    padding-right: 25px;
 }
 .about-me4 img{
     max-height: 225px;
