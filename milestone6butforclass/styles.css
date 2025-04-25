@@ -733,7 +733,7 @@ p {
     flex-flow: row;
     background-color: rgb(7, 89, 167);
     margin: 5px;
-    padding-right:  15px;
+    padding-right:  15px;   
     max-width: 100%;
 
 }
