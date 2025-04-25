@@ -41,6 +41,7 @@ body {
     grid-row-end: 7;
     background-color: rgb(7, 89, 167);
     display: flex;
+    text-align: center;
     align-items: center;
     flex-flow: row;
 }
@@ -139,6 +140,7 @@ body {
         background-color: rgb(7, 89, 167);
         display: flex;
         align-items: center;
+        text-align: center;
         flex-flow: row;
     }
     .flex-container4{
@@ -240,6 +242,7 @@ body {
         background-color: rgb(7, 89, 167);
         display: flex;
         align-items: center;
+        text-align: center;
         flex-flow: row;
     }
     .flex-container4{
@@ -349,10 +352,11 @@ body {
         display: flex;
         align-items: center;
         flex-flow: column;
+        text-align: center;
         justify-content: flex-end;
         background-color: rgb(7, 89, 167);
         margin: 5px;
-        padding: 7px;
+        
     }
     .flex-container4{
         grid-row-start: 7;
@@ -761,4 +765,10 @@ p {
     flex-flow: row;
     margin: 15;
     max-width: 100%;
+}
+.about-me4{
+    margin: 15px;
+    align-content: center;
+    align-items: center;
+    padding-right: 30px;
 }
