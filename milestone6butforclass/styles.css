@@ -413,66 +413,7 @@ body {
 }
 
 
-/*
-.grid-item1 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-column-end: 14;  
-    grid-row-end: 4;
-    background-color: lightblue;
-}
 
-.grid-item2 {
-    grid-column-start: 2;
-    grid-row-start: 4;
-    grid-column-end: 14;  
-    grid-row-end: 8;
-    background-color: rgb(230, 173, 216);
-}
-
-.grid-item3 {
-    grid-column-start: 2;
-    grid-row-start: 8;
-    grid-column-end: 14;  
-    grid-row-end: 10;
-    background-color: rgb(213, 230, 173);
-}
-
-.grid-item4 {
-    grid-column-start: 4;
-    grid-row-start: 10;
-    grid-column-end: 12;  
-    grid-row-end: 15;
-    background-color: rgb(230, 173, 173);
-
-}
-
-.grid-item5 {
-    grid-column-start: 2;
-    grid-row-start: 10;
-    grid-column-end: 4;
-    grid-row-end: 20;
-    background-color: rgb(17, 49, 49);
-}
-
-.grid-item6 {
-    grid-column-start: 12;  
-    grid-column-end: 14;  
-    grid-row-start: 10;
-    grid-row-end: 20;
-    background-color: blueviolet;
-}
-
-.grid-item7 {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 15;
-    grid-row-end: 20;
-    background-color: hotpink;
-
-
-}   
-*/
 img {
     width: 100%;          
     max-width: 100%;      
@@ -538,106 +479,14 @@ img {
     align-content: center;
 }
 
-/*
-.flex-container {
-    grid-column-start: 2;
-    grid-column-end: -2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    display: flex; 
-    gap: 10px;
-    background-color: rgba(212, 0, 255, 0.432);
-    padding: 10px;
-}
 
-.flex-container .grid-item9 {
-    background-color: rgb(255, 145, 0);
-    text-align: flex-start;
-    display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.flex-container .grid-item10 {
-    background-color: rgb(100, 64, 17);
-    text-align: center;
-    display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.flex-container .grid-item11 {
-    background-color: rgb(153, 153, 153);
-    text-align: center;
-    display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.flex-container .grid-item12 {
-    background-color: rgb(255, 0, 0);
-    text-align: center;
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-*/
 p {
     text-align: center;
     padding: 0px;
     margin: 0px;
 
   }
-/*
-.img-item1{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: -2;
-    background-color: aqua;
-    padding-top: 0px;
-    font-size: clamp(15px, 4vw, 90px); 
-    font-family: "Comic Sans MS";
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 
-.flex-container1 p{
-    font-size: clamp(10px, 2vw, 25px); 
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    justify-self: flex-start;
-    
-}
-.flex-container2 p{
-    font-size: clamp(10px, 2vw, 25px); 
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
-}
-.flex-container2{
-    grid-row-start: 7;
-    grid-row-end: 11;
-    grid-column-start: -2;
-    grid-column-end: -10;
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgb(7, 89, 167);
-    margin: 5px;
-    padding: 7px;
-}
-
-.flex-text-div1{
-    flex-grow: 1;
-    align-content: center;
-    padding: 30px;
-}
-.flex-text-div2{
-    flex-grow: 1;
-    padding: 30px;
-    align-content: center;
-}
-*/
 .flex-text-div3{
     flex-grow: 1;
     padding: 30px;
@@ -667,17 +516,7 @@ p {
     align-content: center;
     font-size: clamp(10px, 2vw, 25px);
 }
-/*
-.img-item7{
-    align-content: center;
-    max-width: 300px;
-}
-.img-item4{
-    align-content: center;
-    align-items: center;
-    max-width: 250px;
-}
-*/
+
 /*  this is the about me page css*/
 .about-me1{
     grid-column-start: 2;
