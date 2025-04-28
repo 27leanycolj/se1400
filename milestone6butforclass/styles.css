@@ -588,7 +588,7 @@ p {
     margin: 0px;
 
   }
-
+/*
 .img-item1{
     grid-row-start: 2;
     grid-row-end: 3;
@@ -626,6 +626,7 @@ p {
     margin: 5px;
     padding: 7px;
 }
+
 .flex-text-div1{
     flex-grow: 1;
     align-content: center;
@@ -636,6 +637,7 @@ p {
     padding: 30px;
     align-content: center;
 }
+*/
 .flex-text-div3{
     flex-grow: 1;
     padding: 30px;
@@ -665,7 +667,7 @@ p {
     align-content: center;
     font-size: clamp(10px, 2vw, 25px);
 }
-
+/*
 .img-item7{
     align-content: center;
     max-width: 300px;
@@ -675,7 +677,7 @@ p {
     align-items: center;
     max-width: 250px;
 }
-
+*/
 /*  this is the about me page css*/
 .about-me1{
     grid-column-start: 2;
