@@ -59,7 +59,7 @@ body {
     grid-row-start: 2;
     grid-column-end: 14;  
     grid-row-end: 3;
-    background-color: lightblue;
+    background-color: aqua;
     border-radius: 15px;
     align-content: center;
     text-align: center;
@@ -71,7 +71,7 @@ body {
     grid-row-start: 3;
     grid-column-end: 14;  
     grid-row-end: 4;
-    background-color: rgb(230, 173, 216);
+    background-color:aqua;
     border-radius: 15px;
     align-content: center;
     text-align: center;
@@ -92,7 +92,7 @@ body {
     grid-row-start: 4;
     grid-column-end: -2;  
     grid-row-end: 9;
-    background-color: rgb(230, 173, 173);
+    background-color:  rgb(7, 89, 167);
     margin: 15px;
     padding: 5px;
     border-radius: 15px;
@@ -120,7 +120,7 @@ body {
     grid-column-end: -2;
     grid-row-start: 9;
     grid-row-end: 14;
-    background-color: hotpink;
+    background-color:  rgb(7, 89, 167);
     margin: 15px;
     padding: 10px;
     border-radius: 15px;

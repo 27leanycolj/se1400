@@ -427,7 +427,7 @@ img {
 
 
 .grid-item9 {
-    background-color: rgb(255, 145, 0);
+    background-color: #4E5E87;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -436,6 +436,8 @@ img {
     color:white;
     align-content: center;
     text-align: center;
+    border-radius: 15px;
+    margin: 5px;
 }
 .grid-item10 {
     text-decoration: none;
@@ -443,32 +445,42 @@ img {
     grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: rgb(100, 64, 17);
+    background-color: #4E5E87;
     color:white;
     align-content: center;
     text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+}
+div{
+    border-radius: 15px;
+    margin: 5px;
 }
 .grid-item11 {
     grid-column-start: 8;
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: gray;
+    background-color: #4E5E87;
     text-decoration: none;
     color:white;
     align-content: center;
     text-align: center;
+    border-radius: 15px;
+    margin: 5px;
 }
 .grid-item12{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 11;
     grid-column-end: 14;
-    background-color: red;
+    background-color: #4E5E87;
     text-decoration: none;
     color:white;
     align-content: center;
     text-align: center;
+    border-radius: 15px;
+    margin: 5px;
 }
 .grid-item9 a,
 .grid-item10 a,
@@ -494,7 +506,7 @@ p {
 }
 .flex-text-div4{
     flex-grow: 1;
-    padding: 30px;
+    padding: 15px;
     align-content: center;
     font-size: clamp(10px, 2vw, 25px);
 }
@@ -512,7 +524,7 @@ p {
 }
 .flex-text-div7{
     flex-grow: 1;
-    padding: 30px;
+    padding: 15px;
     align-content: center;
     font-size: clamp(10px, 2vw, 25px);
 }
@@ -523,7 +535,7 @@ p {
     grid-column-end: -2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: lightsalmon;
+    background-color: aqua;
     align-content: center;
 }
 
@@ -538,8 +550,9 @@ p {
     grid-column-end: -2;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: blueviolet;
+    background-color: aqua;
     align-content: center;
+    font-size: clamp(10px, 2vw, 35px); 
 }
 
 
@@ -574,6 +587,7 @@ p {
     flex-flow: row;
     background-color: rgb(7, 89, 167);
     margin: 5px;
+
     padding-right:  15px;   
     max-width: 100%;
 
