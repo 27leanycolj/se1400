@@ -1,0 +1,14 @@
+.felx-container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: rgb(7, 89, 167);
+
+
+}
+.flex-item1{
+    font-size: clamp(10px, 2vw, 25px); 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    justify-self: flex-start;
+}
